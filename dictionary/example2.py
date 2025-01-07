@@ -5,7 +5,7 @@ words = {}
 while True:
     s = input("Введите слово (или 'выход' для завершения): ")
 
-    if s.lower() == 'выход':
+    if s.lower() == 'выход' or s.lower() == 'exit':
         print("Завершаем программу...")
         break
 
